@@ -1,0 +1,177 @@
+@import url('assets/css/Graphik-Medium.ttf');
+@import url('assets/css/Graphik-Regular.woff');
+@import url('assets/css/Theinhardt-Lt.woff');
+@import url('assets/css/TiemposHeadline-Semibold.woff');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------------- START BACKLOG --------------------------------*/
+/* #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff */
+/* 
+font-family: 'TiemposHeadline-Semibold', serif;
+font-family: 'Graphik-Medium', sans-serif;
+font-family: 'Theinhardt-Lt', sans-serif;
+font-family: 'Graphik-Regular', sans-serif;
+*/
+/* -------------------------------- ENDE BACKLOG --------------------------------*/
+/* -------------------------------- START GENERELLES ZEUG  ----------------------*/
+body{
+    width: 90%;
+    background-color: white;
+    margin-left: 5%;
+}
+/* -------------------------------- ENDE GENERELLES ZEUG  ----------------------*/
+/* -------------------------------- START HEADER  ------------------------------*/
+
+header{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    color:#27282A;
+    font-family: 'TiemposHeadline-Semibold', serif;
+    display: inline-block;
+    margin: auto 50px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+
+header ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 30px;
+}
+
+header ul li a:nth-of-type(1){
+    margin-left: 20px;
+}
+header ul li a:nth-of-type(4){
+    margin-right: 0;
+}
+
+header ul li a{
+    color:#27282A;
+    text-decoration: none;
+    font-family: 'Graphik-Regular', sans-serif;
+    }
+
+header a{
+    font-family: 'Graphik-Medium', sans-serif;
+    color:#27282A;
+    text-decoration: none;
+    margin:0;
+}
+
+.button{
+    border: 2px solid #2B2C2E;
+    padding: 5px 40px;
+    border-radius: 5px;
+    margin-right: 20vh;
+}
+
+/* -------------------------------- ENDE HEADER  ------------------------------*/
+/* -------------------------------- START MAIN SECTION 1 ----------------------*/
+#main-section-1{
+    height:100 vh;
+    width: 100%;
+}
+
+#main-section-1 h1{
+    font-family: 'Graphik-Regular', sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#main-section-1 img{
+    width: 100%;
+}
+/* -------------------------------- ENDE MAIN SECTION 1 -----------------------*/
+/* -------------------------------- START MAIN SECTION 2 ----------------------*/
+#main-section-2{
+    height: 60vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+
+#main-section-2 .main-section-2-left p{
+    font-family: 'Graphik-Medium', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    font-weight:bold;
+}
+
+#main-section-2 h1{
+    font-family: 'Graphik-Medium', sans-serif;
+    font-size: 5em;
+}
+
+#main-section-2 h1+p{
+    font-family: 'Theinhardt-Lt', sans-serif;
+    font-size: 1em;
+    color: #9FA2A7;
+    margin-top: 10px;
+}
+
+.main-section-2-left{
+    width: 65%;
+}
+.main-section-2-right{
+    width: 35%;
+    margin-left: 10vh;
+}
+/* -------------------------------- ENDE MAIN SECTION 2 -----------------------*/
+/* -------------------------------- START MAIN SECTION 3 -----------------------*/
+#main-section-3{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+#main-section-3 img{
+    width: 50%;
+    max-height: 75vh;
+    object-fit: contain;
+    display: flex;
+}
+
+#main-section-3-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 15vh;
+}
+
+#main-section-3-right h1{
+    font-family: 'TiemposHeadline-Semibold', serif;
+    font-size: 5em;
+    margin-bottom: 1em;
+}
+
+#main-section-3-right h2{
+    font-family: 'Graphik-Medium', sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#main-section-3-right p{
+    font-family: 'Theinhardt-Lt', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    color: #9FA2A7;
+}
+
+
+
+
+
+/* -------------------------------- ENDE MAIN SECTION 3 -----------------------*/
